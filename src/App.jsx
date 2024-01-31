@@ -1,11 +1,16 @@
 import "./App.css";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import HeroSection from "./components/HeroSection";
+import TaskSection from "./components/task/TaskSection";
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-        Welcome to Task Management Application
-      </h1>
+      <Header></Header>
+      <HeroSection></HeroSection>
+      <TaskSection></TaskSection>
+      <Footer />
     </>
   );
 }
